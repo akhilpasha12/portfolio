@@ -23,7 +23,7 @@ function Home() {
                 a dynamic team and continue to grow as a developer.
               </p>
               <div className=" flex justify-between ">
-                <Link to="project" smooth={true} duration={500}>
+                <Link to="projects" smooth={true} duration={500}>
                   <div className="group lg:mt-6 mt:mb-6 mt-4 text-white w-fit px-4 py-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                     <p className="overAlltext text-base">Projects</p>
                     <span className="group-hover:rotate-90 duration-300">
