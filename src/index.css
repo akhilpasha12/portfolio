@@ -35,3 +35,10 @@
 ::-webkit-scrollbar-thumb:hover {
   background: #1E2836;
 }
+
+/* scroll to top button */
+.top-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
