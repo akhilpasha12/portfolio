@@ -66,8 +66,8 @@ function Contact() {
               </div>
             </form>
             <div className="lg:col-span-2 md:col-span-2 col-span-1 relative">
-              <div className="absolute lg:-top-8 lg:right-44 md:-top-12 md:right-[115px] -top-11 right-2">
-                <img src={phone} alt={phone} className="w-[60px]" />
+              <div className="absolute lg:-top-8 lg:right-44 md:-top-12 md:right-[115px] -top-11 right-2 image-container">
+                <img src={phone} alt={phone} className="w-[60px]  " />
               </div>
             </div>
           </div>

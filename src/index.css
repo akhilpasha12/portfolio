@@ -42,3 +42,14 @@
   justify-content: center;
   align-items: center;
 }
+
+/* phone image animation */
+@keyframes oscillate {
+  0% { transform: translateX(-14px); }
+  50% { transform: translateX(14px); }
+  100% { transform: translateX(-14px); }
+}
+
+.image-container img {
+  animation: oscillate 0.9s infinite;
+}
