@@ -18,7 +18,7 @@ function Contact() {
                     type="text"
                     name="name"
                     // value={info.name}
-                    className="shadow-sm bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
+                    className="shadow-sm overAlltext bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
                     placeholder="Enter Your  Full Name"
                     // onChange={(e) => inputHandler(e)}
                     required
@@ -30,7 +30,7 @@ function Contact() {
                     type="tel"
                     name="number"
                     // value={info.number}
-                    className="shadow-sm bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
+                    className="shadow-sm overAlltext bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
                     placeholder="Enter Your Mobile Number"
                     // onChange={(e) => inputHandler(e)}
                     required
@@ -42,7 +42,7 @@ function Contact() {
                   type="email"
                   name="email"
                   // value={info.email}
-                  className="shadow-sm bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
+                  className="shadow-sm overAlltext bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic "
                   placeholder="Enter Your Email Address"
                   // onChange={(e) => inputHandler(e)}
                   required
@@ -54,7 +54,7 @@ function Contact() {
                   name="description"
                   rows="6"
                   // value={info.description}
-                  className="shadow-sm bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic"
+                  className="shadow-sm overAlltext bg-white border border-white focus:outline-none focus:border-[#ff0000] text-sm rounded-lg block w-full lg:p-2.5 md:p-2.5 p-2 dark:bg-gray-700 dark:border-gray-600 placeholder:italic"
                   placeholder="Hours Of Operation..."
                   // onChange={(e) => inputHandler(e)}
                 ></textarea>
