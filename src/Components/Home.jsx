@@ -7,7 +7,7 @@ function Home() {
     <section>
       <div
         name="home"
-        className="w-full h-full lg:pt-20 md:pt-20 bg-black"
+        className="w-full h-full lg:pt-20 md:pt-20 lg:pb-10 md:pb-10 pb-6 bg-black"
       >
         <div className="max-w-screen-lg mx-auto">
           <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-20 md:gap-6 lg:px-0 md:px-20 px-4 items-center h-full ">
