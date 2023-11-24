@@ -44,7 +44,7 @@ function Navbar() {
         {links.map(({ link, id }) => (
           <li
             key={id}
-            className={` ${active === link ? "text-red-600 " : "text-white"}  cursor-pointer capitalize font-bold lg:text-base md:text-base text-lg overAlltext px-4 hover:text-red-600 duration-200`}
+            className={` ${active === link ? "text-red-600 " : "text-white"}  cursor-pointer capitalize font-bold lg:text-base md:text-base text-lg overAlltext px-4 hover:text-red-600`}
           >
             <Link
               to={link}
