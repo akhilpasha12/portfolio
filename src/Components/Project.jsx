@@ -1,6 +1,7 @@
 import Whiprides from "../assets/project/whiprides.png";
 import serrano from "../assets/project/serrano.png";
 import serranoen from "../assets/project/serranoen.png";
+import serranoapp from "../assets/project/serranoApp.jpg";
 import admin from "../assets/project/admin.png";
 import shop from "../assets/project/shop.png";
 
@@ -39,8 +40,8 @@ function Project() {
     },
     {
       id: 6,
-      title: "Serrano App",
-      src: serrano,
+      title: "Serrano Android App",
+      src: serranoapp,
       style: "hover:shadow-[#7449B9] shadow-gray-800",
     },
   ];

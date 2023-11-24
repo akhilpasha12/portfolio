@@ -48,7 +48,7 @@ function Home() {
                 </div>
               </div>
             </div>
-            <div className="lg:order-2 md:order-2 order-1  ">
+            <div className="lg:order-2 md:order-2 order-1">
               <img
                 src={Profile}
                 alt="profile"

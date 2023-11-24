@@ -37,7 +37,7 @@ function Navbar() {
     <div className="flex z-10 justify-between items-center w-full lg:h-16 md:h-16 h-14 lg:px-16 md:px-16 px-4  bg-[#000] fixed">
       <div className="">
         <h1 className="logoText lg:text-4xl md:text-4xl text-2xl text-[#fff] ">
-          AK
+          AK<span className="text-red-600 ">.</span>
         </h1>
       </div>
       <ul className="hidden md:flex lg:flex">
