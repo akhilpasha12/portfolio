@@ -57,7 +57,7 @@ function Project() {
                 Projects
               </p>
               <div className="w-1/6 h-1 bg-gray-500 mt-2" />
-              <p className="pt-3 capitalize lg:text-base md:text-base text-[16px]  text-black overAlltext">
+              <p className="pt-3 capitalize lg:text-base md:text-base text-base font-semibold   text-black overAlltext">
                 These are the Projects I've worked with
               </p>
             </div>
@@ -68,7 +68,7 @@ function Project() {
                   className={`border hover:border-gray-500 lg:scale-100 lg:hover:scale-110 md:hover:scale-105 duration-500 pb-2  rounded-lg ${style}`}
                 >
                   <img src={src} alt={title} className=" mx-auto  rounded-tr-lg rounded-tl-lg  w-[100%]" />
-                  <p className="mt-4 lg:text-base md:text-base text-[16px]  text-black overAlltext text-center">
+                  <p className="mt-4 lg:text-base md:text-base text-base font-semibold  text-black overAlltext text-center">
                     {title}
                   </p>
                 </div>

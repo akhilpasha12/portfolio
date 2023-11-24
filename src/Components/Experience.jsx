@@ -97,7 +97,7 @@ function Experience() {
                 Experience
               </p>
               <div className="w-1/6 h-1 bg-gray-500 mt-2" />
-              <p className="pt-3  capitalize lg:text-base md:text-base text-[16px]  text-white overAlltext">
+              <p className="pt-3  capitalize lg:text-base md:text-base text-base font-semibold   text-white overAlltext">
                 These are the technologies I've worked with
               </p>
             </div>
@@ -108,7 +108,7 @@ function Experience() {
                   className={`shadow-md lg:hover:scale-105 md:hover:scale-105 duration-500 py-2  rounded-lg ${style}`}
                 >
                   <img src={src} alt={title} className="lg:w-1/2 md:w-1/2 w-1/2 mx-auto" />
-                  <p className="mt-4 lg:text-base md:text-base text-[16px]  text-white overAlltext text-center">
+                  <p className="mt-4 lg:text-base md:text-base text-base font-semibold   text-white overAlltext text-center">
                     {title}
                   </p>
                 </div>

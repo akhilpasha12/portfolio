@@ -1,20 +1,19 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Knewave&family=Satisfy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
-  /* @import url('https://fonts.googleapis.com/css2?family=Kings&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Knewave&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Kings&display=swap'); */
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .overAlltext {
-  font-family: "Josefin", cursive;
+  font-family: "Josefin Sans", sans-serif;
 }
 .logoText {
   font-family: "Knewave", cursive;
   /* font-family: 'Kings', cursive; */
 }
-
 
 /* width */
 ::-webkit-scrollbar {
@@ -28,12 +27,12 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #6B7280;
+  background: #6b7280;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #1E2836;
+  background: #1e2836;
 }
 
 /* scroll to top button */
@@ -45,9 +44,15 @@
 
 /* phone image animation */
 @keyframes oscillate {
-  0% { transform: translateX(-14px); }
-  50% { transform: translateX(14px); }
-  100% { transform: translateX(-14px); }
+  0% {
+    transform: translateX(-14px);
+  }
+  50% {
+    transform: translateX(14px);
+  }
+  100% {
+    transform: translateX(-14px);
+  }
 }
 
 .image-container img {

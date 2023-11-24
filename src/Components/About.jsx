@@ -15,20 +15,20 @@ function About() {
             </p>
           </div>
           <div className="grid lg:grid-cols-3 md:grid-cols-3 grid-cols-1 lg:gap-4 md:gap-4 gap-4  text-justify">
-            <p className="text-black lg:text-base md:text-base text-[16px] overAlltext">
+            <p className="text-black lg:text-base md:text-base text-base font-semibold overAlltext">
               Motivated and detail-oriented Frontend Developer with one year of
               hands-on experience in building responsive and user-friendly web
               and mobile applications. Proficient in utilizing modern frontend
               technologies such as React.js, React Native (Android), and
               Next.js.
             </p>
-            <p className="text-black lg:text-base md:text-base text-[16px] overAlltext">
+            <p className="text-black lg:text-base md:text-base text-base font-semibold overAlltext">
               Adept at translating design concepts into functional and visually
               appealing interfaces. Demonstrated ability to collaborate with
               cross-functional teams to deliver high-quality software solutions
               within project timelines.
             </p>
-            <p className="text-black lg:text-base md:text-base text-[16px] overAlltext">
+            <p className="text-black lg:text-base md:text-base text-base font-semibold overAlltext">
               Experienced in using state management tools like Redux Toolkit to
               ensure efficient data flow within applications. Committed to
               staying current with emerging industry trends and technologies.

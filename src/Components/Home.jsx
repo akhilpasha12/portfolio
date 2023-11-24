@@ -15,7 +15,7 @@ function Home() {
               <h2 className="lg:text-6xl md:text-5xl text-4xl logoText text-white leading-[50px] lg:mb-8 md:mb-8 mb-5 lg:mt-0 md:mt-0 mt-6">
                 I'm a Front-End Developer
               </h2>
-              <p className="text-white lg:text-base md:text-base text-[16px] overAlltext text-justify">
+              <p className="text-white lg:text-base md:text-base text-base font-semibold  overAlltext text-justify">
                 Highly motivated and skilled Frontend Developer with one year of
                 experience in building web and mobile applications using
                 React.js, React Native (Android), Next.js, Tailwind CSS, and
@@ -25,7 +25,7 @@ function Home() {
               <div className=" flex justify-between ">
                 <Link to="projects" smooth={true} duration={500}>
                   <div className="group lg:mt-6 mt:mb-6 mt-4 text-white w-fit px-4 py-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-                    <p className="overAlltext text-base">Projects</p>
+                    <p className="overAlltext text-base font-semibold">Projects</p>
                     <span className="group-hover:rotate-90 duration-300">
                       <MdOutlineArrowForward size={18} className="ml-1" />
                     </span>
@@ -37,7 +37,7 @@ function Home() {
                     <a
                       href="akhilpasharesume.pdf"
                       download={true}
-                      className="overAlltext text-base"
+                      className="overAlltext text-base font-semibold"
                     >
                       Resume
                     </a>
